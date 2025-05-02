@@ -11,7 +11,6 @@ export function add(a, b) {
   }
   
   export function divide(a, b) {
-    if (b === 0) throw new Error("Kan inte dividera med noll")
     return a / b
   }
   
